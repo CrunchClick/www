@@ -1,0 +1,65 @@
+html.home { 
+  background: url(../img/desk.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+}
+
+.home h3, .home .promise {
+  text-shadow: rgba(255,255,255,.25) 0.05em 0.05em;
+}
+
+.home body {
+  background-color: transparent;
+  font-family: Lora
+}
+
+.notify input {
+  font-family: Lora
+}
+
+#cog-spinner {
+  display: none;
+}
+
+ul.alert {
+ background-color: transparent;
+ border: none;
+ text-shadow: rgba(255,255,255,.25) 0.05em 0.05em;
+}
+
+ul.alert li {
+ color: #A22;
+ text-shadow: rgba(255,255,255,.25) 0.05em 0.05em;
+}
+
+.row.home {
+  margin-top: 3em;
+}
+
+.notify {
+  padding-top: 2em;
+  border-radius: 6px;
+  background-color: rgba(255,255,255, .3)
+}
+
+.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #0085a1;
+  border: 1px solid #0085a1;
+  color: white;
+}
+
+.promise {
+ font-size: 80%;
+ margin-top: 0px;
+}
